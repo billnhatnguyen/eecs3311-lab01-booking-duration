@@ -1,0 +1,39 @@
+=== Tue Sep 29 13:49:42 EDT 2026 ===
+
+JDK:
+openjdk version "24" 2025-03-18
+OpenJDK Runtime Environment (build 24+36-3646)
+OpenJDK 64-Bit Server VM (build 24+36-3646, mixed mode, sharing)
+
+--- bash run.sh check ---
+PASS duration endpoints
+PASS reject duration 0
+PASS reject duration 25
+PASS reject duration -1
+PASS reject duration -2147483648
+PASS reject duration 2147483647
+PASS student three-hour price
+PASS visitor three-hour price
+PASS null duration
+PASS null customer
+CHECKS 10; FAILED 0
+
+--- bash run.sh test ---
+
+Thanks for using JUnit! Support its development at https://junit.org/sponsoring
+
+
+Test run finished after 52 ms
+[         6 containers found      ]
+[         0 containers skipped    ]
+[         6 containers started    ]
+[         0 containers aborted    ]
+[         6 containers successful ]
+[         0 containers failed     ]
+[        18 tests found           ]
+[         0 tests skipped         ]
+[        18 tests started         ]
+[         0 tests aborted         ]
+[        18 tests successful      ]
+[         0 tests failed          ]
+
